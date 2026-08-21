@@ -1,0 +1,77 @@
+/* ============================================================
+   Lab: Excessive Trust in Client-Side Controls
+   Minimal styling on top of Bootstrap 5 (loaded via CDN in each
+   page, but the site remains usable even without internet access
+   since only cosmetic classes rely on it).
+   ============================================================ */
+
+body {
+    background-color: #f4f6f9;
+    color: #222;
+}
+
+.navbar-brand span.badge {
+    font-size: 0.6rem;
+    vertical-align: middle;
+}
+
+.product-card {
+    background: #fff;
+    border: 1px solid #e2e5ea;
+    border-radius: 10px;
+    padding: 1.25rem;
+    height: 100%;
+    transition: box-shadow .15s ease-in-out;
+}
+
+.product-card:hover {
+    box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+}
+
+.product-emoji {
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.price-tag {
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #b02a37;
+}
+
+.credit-badge {
+    background: #198754;
+    color: #fff;
+    border-radius: 6px;
+    padding: 0.25rem 0.6rem;
+    font-weight: 600;
+}
+
+.solved-banner {
+    background: linear-gradient(90deg, #198754, #20c997);
+    color: #fff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    box-shadow: 0 6px 20px rgba(25,135,84,0.35);
+}
+
+footer.lab-footer {
+    color: #888;
+    font-size: 0.8rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.cart-table td, .cart-table th {
+    vertical-align: middle;
+}
+
+code.inline {
+    background: #eee;
+    padding: 1px 5px;
+    border-radius: 4px;
+}
